@@ -1,0 +1,11 @@
+﻿  application.cpp
+  card.cpp
+  dealer.cpp
+h:\blackjack\blackjack\blackjack\src\dealer.cpp(14): error C2039: 'card_Count': is not a member of 'player'
+  h:\blackjack\blackjack\blackjack\src\player.h(4): note: see declaration of 'player'
+h:\blackjack\blackjack\blackjack\src\dealer.cpp(14): error C2065: 'card_Count': undeclared identifier
+  deck.cpp
+  player.cpp
+  rules.cpp
+h:\blackjack\blackjack\blackjack\src\rules.cpp(13): error C2059: syntax error: '&'
+  Generating Code...
