@@ -6,6 +6,8 @@ using std::cin;
 using std::cout;
 using std::string;
 
+// Main function and entry point
+
 int main()
 {
 	bool game = true;

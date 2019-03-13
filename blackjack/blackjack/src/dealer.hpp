@@ -1,4 +1,5 @@
 #pragma once
+// Declaration of Dealer
 
 class dealer
 {

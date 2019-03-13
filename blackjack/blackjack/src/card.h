@@ -1,5 +1,6 @@
 #pragma once
-
+// Declaration of Card
+// Card is a super class
 // Value and Suit are properties of cards
 // TODO: Somehow associate each suit with the words 
 // Diamond, Spades, Hearts, and Clubs

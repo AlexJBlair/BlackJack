@@ -4,7 +4,8 @@
 // This header defines certain functions that have to do with the 
 // rules of blackjack
 
-bool no_more_than_21();
+
+bool no_more_than_21(int total_value);
 
 // Add a given amount to the bet and subtract that amount from balance
 int bet();

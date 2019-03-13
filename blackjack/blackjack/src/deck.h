@@ -1,4 +1,6 @@
 #pragma once
+// Declaration of deck
+
 #include "card.h"
 
 class deck : public card

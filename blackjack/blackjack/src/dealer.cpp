@@ -2,6 +2,9 @@
 #include "dealer.hpp"
 #include "player.h"
 
+// Implementation of Dealer
+// Author: Alex Blair
+
 int::dealer::change_beginning_balance(int n_balance)
 {
 	int new_balance = n_balance;
