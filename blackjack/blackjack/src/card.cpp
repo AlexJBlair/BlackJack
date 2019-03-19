@@ -1,28 +1,49 @@
 #include <iostream>
 #include "card.h"
 
+// This class seems to be working
 // Implementation of Card
-char card::get_suit()
+char card::get_c_suit()
 {
-	if (suit != 'd' || 's' || 'h' || 'c')
+	if (c_suit != 'd' || 'D' ||
+	's'  || 'S' ||
+	 'h' || 'H' ||
+	 'c' || 'C')
 	{
 		std::cout << "Invalid suit!" << std::endl;
 	}
-	return suit;
+
+	 /* 
+	 provide if statements here to convert char input to string output return type
+	  */
+	return c_suit;
 }
 
-int card::get_value()
+std::string card::get_c_value()
 {
-	return value;
+	if( c_value == "13")
+{
+	return "King";
+}
+else if (c_value == "12")
+{
+	return "Queen";
+}
+else if (c_value == "11")
+{
+	return "Jack";
+}
+else
+	return c_value;
 }
 
 
 card::card(){}
-card::card(int m_val, char m_suit)
+
+card::card(int val, char suit)
 {
-	value = m_val;
-	suit = m_suit;
+	c_value = val;
+	c_suit = suit;
 }
 
 card::~card(){}
-

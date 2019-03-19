@@ -6,16 +6,19 @@
 // Diamond, Spades, Hearts, and Clubs
 class card
 {
+// Non mutable values
 private:
-	int value;
-	char suit;
+	std::string c_value;
+	char c_suit;
 
+// Access methods
 public:
-	int get_value();
+	std::string get_c_value();
+	char get_c_suit();
 
-	char get_suit();
-
-	card(int m_val, char m_suit);
+// Constructors and destructors
+public:
+	card(int val, char suit);
 
 	card();
 

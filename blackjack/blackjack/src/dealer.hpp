@@ -1,15 +1,19 @@
 #pragma once
+#include "player.h"
 // Declaration of Dealer
 
-class dealer
+class dealer : public player
 {
+
 private:
 	int beginning_balance;
 	int numb_decks;
 
 public:
 
-	int change_beginning_balance(int new_balance);
-	void deal();
+
+int get_beginning_balance();
+int change_beginning_balance(int pot_balance);
+void deal();
 
 };

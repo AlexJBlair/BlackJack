@@ -1,4 +1,6 @@
 #include "rules.h"
+#include "dealer.hpp"
+#include "player.h"
 #include <iostream>
 using std::endl;
 using std::cout;
@@ -12,7 +14,7 @@ bool stay(bool choice)
 	else return false;
 }
 
-int bet(int amount,  &balance)
+int bet(int amount,  &p_balance, &beginning_balance)
 {
 
 }
