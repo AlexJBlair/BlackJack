@@ -6,6 +6,7 @@ class player
 	friend deck;
 private:
 	int p_balance;
+	int pot_balance;
 
 public:
 	int p_card_Count;
@@ -13,5 +14,5 @@ public:
 public:
 	int get_p_balance();
 	int get_p_card_Count();
-	int change_p_balance();
+	int change_p_balance(int pot_balance);
 };

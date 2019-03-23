@@ -13,12 +13,13 @@ bool stay(bool choice)
 	}
 	else return false;
 }
+/*
 
 int bet(int amount,  &p_balance, &beginning_balance)
 {
 
 }
-
+*/
 bool no_more_than_21(int total_value)
 {
 	if (total_value > 21)

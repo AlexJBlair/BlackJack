@@ -15,12 +15,10 @@ int player::get_p_card_Count()
     return p_card_Count;
 }
 
+//Not sure why this function not working
+//Please revisit.
 /*
-
-Not sure why this function not working
-Please revisit.
-
-int player::change_p_balance(int pot_balance)
+int player::change_p_balance()
 {
     int temp;
     temp = pot_balance;
@@ -28,4 +26,3 @@ int player::change_p_balance(int pot_balance)
     return p_balance;
 }
 */
-
